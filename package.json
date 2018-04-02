@@ -1,0 +1,23 @@
+{
+  "name": "index",
+  "version": "0.3.0",
+  "description": "description",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jshint src/index.js"
+  },
+  "keywords": [
+    "library"
+  ],
+  "author": "Geoff Doty",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "tape": "^4.9.0"
+  }
+}
