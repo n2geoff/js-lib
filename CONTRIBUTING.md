@@ -33,7 +33,7 @@ The `dist` includes the minified version of the source code.
 Run unit tests using this command:
 
 ```bash
-npm test
+npm run test
 ```
 
 ## Reporting a bug
@@ -64,7 +64,7 @@ If it is supported in all major browers without transpiling, then please use tho
 
 Currently all ES5 and ES6/ES2015 are available.
 
-This project is linted agaist [JSHint](https://github.com/jshint/jshint) and the [`.jshintrc`](.jshintrc) is dead-simple, and all you need to followed. 
+This project is linted agaist [ESLint](https://eslint.org/) and the [`.eslintrc.json`](.eslintrc.json) is dead-simple, and all you need to followed. 
 
 Thank you for reading this.
 

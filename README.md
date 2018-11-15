@@ -9,7 +9,7 @@ Brainspace is limited these days, so start with this nice boilerplate, so you do
 **Features**
 - No Build Process
 - Template for browsers and NodeJS library
-- JSHint w/ ES6 Support
+- ESLint w/ ES6 Support
 - More..less..not sure, why dont you take a look
 
 ## Quick Start
