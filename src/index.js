@@ -1,5 +1,6 @@
 /* {Module} v{version} | MIT | https:// */
 (function(root, factory) {
+    /* eslint-disable */
     if (typeof define === 'function' && define.amd) {
         // AMD
         define(['Module'], factory);
