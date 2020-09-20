@@ -23,6 +23,16 @@ Brainspace is limited these days, so start with this nice boilerplate, so you do
 3. update the [package.js](package.json)
 4. start writing your [library](src/index.js)
 
+## Test
+
+`tape` is setup for testing you lib via
+
+    npm test
+
+and you can lint your source with `eslint` via
+
+    npm run lint
+
 ## Support
 
 Please open [an issue](https://github.com/n2geoff/js-lib/issues/new) for support.

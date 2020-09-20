@@ -4,6 +4,7 @@
 	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.umd = factory());
 }(this, (function () { 'use strict';
 
+
 	var index = {};
 
 	return index;
