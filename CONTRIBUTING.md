@@ -60,11 +60,11 @@ Commit messages should includes GitHub number reference and a imperative easy to
 
 ## Coding style
 
-If it is supported in all major browers without transpiling, then please use those JavaScript language features in your code, with one caveat -- readablity is king. 
+If it is supported in all major browers without transpiling, then please use those JavaScript language features in your code, with one caveat -- readablity is king.
 
 Currently all ES5 and ES6/ES2015 are available.
 
-This project is linted agaist [ESLint](https://eslint.org/) and the [`.eslintrc.json`](.eslintrc.json) is dead-simple, and all you need to followed. 
+This project is linted agaist [ESLint](https://eslint.org/) and the [`.eslintrc.js`](.eslintrc.js) is dead-simple, and all you need to followed.
 
 Thank you for reading this.
 

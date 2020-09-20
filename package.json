@@ -1,6 +1,6 @@
 {
   "name": "index",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "description",
   "main": "src/index.js",
   "directories": {
@@ -9,7 +9,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node_modules/.bin/eslint src/index.js"
+    "start": "",
+    "build": "npx gulp default",
+    "test": "npm run build && npm run lint && node test/index.spec.js",
+    "lint": "npx eslint src/index.js"
   },
   "keywords": [
     "library"
@@ -17,7 +20,13 @@
   "author": "Geoff Doty",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.9.0",
-    "tape": "^4.9.1"
+    "eslint": "^7.9.0",
+    "tape": "^5.0.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-rollup-2": "^1.1.0",
+    "gulp-strip-comments": "^2.5.2"
   }
 }

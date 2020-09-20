@@ -1,5 +1,5 @@
 const test = require('tape');
-const index = require('../src/index.js');
+const index = require('../dist/bundle.umd.js');
 
 test('Index', function(t) {
 
