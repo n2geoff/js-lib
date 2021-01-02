@@ -1,6 +1,6 @@
 # JS-Lib Boilerplate
 
-> gets the cruft out-of-the-way
+> cruft out-of-the-way 2021
 
 **WIP**
 
@@ -8,8 +8,8 @@ Brainspace is limited these days, so start with this nice boilerplate, so you do
 
 **Features**
 - Build / Minify Your Library
-- Rollup for browser and NodeJS library distribution
-- ESLint w/ ES6/2018 Support
+- ESBuild for library distribution
+- ESLint w/ ES6/2017 Support
 - Includes [Tape]() for quickly writing tests
 
 ## Quick Start
@@ -25,13 +25,21 @@ Brainspace is limited these days, so start with this nice boilerplate, so you do
 
 ## Test
 
-`tape` is setup for testing you lib via
+`test.it` is setup for testing you lib via
 
     npm test
 
-and you can lint your source with `eslint` via
+> WARNING: currently requires `deno`
+
+and linting using `eslint` via
 
     npm run lint
+
+## Build
+
+    npm install esbuild -g
+
+    npm run build
 
 ## Support
 

@@ -52,8 +52,6 @@ Use the [GitHub issue tracker](https://github.com/n2geoff/js-lib/issues) to requ
 
 Keep in mind, this is a pure javascript library
 
-Feel free to port it to your favorite framework, such as [RiotJS](http://riotjs.com), Angular or VueJs in a new repository.
-
 ## Commit message
 
 Commit messages should includes GitHub number reference and a imperative easy to understand sentence.

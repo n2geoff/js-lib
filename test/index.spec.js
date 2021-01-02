@@ -1,10 +1,9 @@
-const test = require('tape');
-const index = require('../dist/bundle.umd.js');
+import test from "../node_modules/testit/dist/testit.js";
+import Module from "../src/index.js";
 
-test('Index', function(t) {
+test.it({
+    "module exists": function () {
+        test.assert(Module);
+    }
+}).run();
 
-    t.test('setup', function(t) {
-        t.ok(true);
-        t.end();
-    });
-});
